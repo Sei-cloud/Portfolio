@@ -7,4 +7,4 @@
 NOTE:
 The links to my personal accounts will NOT work on this webpage as this one is not intended to be my actual portfolio.
 
-URL: 
+URL: https://github.com/Sei-cloud/Portfolio
