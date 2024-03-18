@@ -1,3 +1,4 @@
+/* Variable for later uses */
 :root {
     --background-color: black;
     --text-color1: #8f8c8c;
@@ -7,9 +8,12 @@
     --font-size: 50px;
 }
 
+/* Main background color */
 body {
     background-color: var(--background-color);
 }
+
+/* Displaying nav bar */
 header {
     display: flex;
     justify-content: space-between;
@@ -40,17 +44,20 @@ nav a {
     
 }
 
+/* Sizing of a profile avatar */
 .about-me #profile {
     margin-left: 2%;
     border-radius: 50%;
     padding: 1%;
 }
 
+/* Arranging borders that contains main text */
 .block {
     display: flex;
     justify-content: space-between;
 }
 
+/* Spacing and styling text containers. */
 .about-me{
     box-sizing: border-box;
     background-color: var(--border-color);
@@ -88,6 +95,7 @@ nav a {
     color: var(--text-color1);
 }
 
+/* Styling and arranging contact buttons. */
 .contact {
     display: flex;
     justify-content: space-evenly;
@@ -111,7 +119,7 @@ nav a {
 }
 
 
-
+/* Displaying previous works. */
 .my-works {
     display: flex;
     background-color: var(--border-color);
