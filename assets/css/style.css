@@ -122,26 +122,36 @@ nav a {
 /* Displaying previous works. */
 .my-works {
     display: flex;
+    flex-direction: column;
     background-color: var(--border-color);
     margin: 1%;
     border-radius: var(--border-radius);
+    padding: 2%;
+}
+
+
+.my-works a{
+    text-decoration: none;
+    color: var(--text-color1);
+}
+
+.bottom-works {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work { 
+    margin-bottom: 10px; 
+    width: calc(100% - 20px); /* Adjust as needed */
+    margin: 10px;
 }
 
 .image {
     width: 100%;
     height: auto;
     border-radius: var(--border-radius);
-    
 }
 
-.my-works .horiseon {
-    background-color: var(--border-color);
-    padding: 2%;
-}
-.my-works a{
-    text-decoration: none;
-    color: var(--text-color1);
-}
 
 /* Media query for screens smaller than 768px
  */
